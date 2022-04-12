@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jeremv59.github.io/portfolio-jerem",
+  "homepage": "https://jeremyv59.github.io/portfolio-jerem",
   "name": "portfolio-jeremv",
   "version": "0.1.0",
   "private": true,
@@ -14,12 +14,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

@@ -113,6 +113,7 @@ img {
   object-fit: cover;
 }
 
+/* Media queries to small & medium width device */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);

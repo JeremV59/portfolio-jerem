@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/header/Header";
-import Nav from "./components/about/About";
+import Navbar from "./components/navbar/Navbar";
 import About from "./components/about/About";
 import Competences from "./components/competences/Competences";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <React.Fragment>
       <Header></Header>
-      <Nav></Nav>
+      <Navbar></Navbar>
       <About></About>
       <Competences></Competences>
       <Portfolio></Portfolio>

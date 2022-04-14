@@ -4,13 +4,15 @@
   margin: 0;
   padding: 0;
   border: 0;
+  outline: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 :root {
   /* Variable pour les diffèrentes couleurs de l'app */
-  --color-bg: #1f1f38;
+  --color-bg: #173753;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4dc5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -43,13 +45,14 @@ body {
 /* Global Styles */
 .container {
   width: var(--container-width-lg);
-  margin: O auto;
+  margin: 0 auto;
 }
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-weight: 500;
 }
 
@@ -89,7 +92,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1.2 rem;
+  padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);

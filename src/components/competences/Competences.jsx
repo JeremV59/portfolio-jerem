@@ -2,7 +2,7 @@ import React from "react";
 import "./competences.css";
 
 const Competences = () => {
-  return <div>Competences</div>;
+  return <section id='competences'>Competences</section>;
 };
 
 export default Competences;

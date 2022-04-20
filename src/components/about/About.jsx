@@ -34,7 +34,7 @@ const About = () => {
           </div>
 
           <p>
-            {`Je suis issu d'une reconversion professionelle dans le domaine du dévelopement web, j'ai donc fais une formation de Technicien Développeur (Niveau Bac +2) ainsi qu'un stage de 3 mois à la fin de celle-ci. J'ai ensuite completé avec une année d'alternance pour un diplome de concepteur développeur d'application (Niveau Bac +3)`}
+            {`J'ai effectué une formation de Technicien Développeur (Niveau Bac +2) ainsi qu'un stage de 3 mois à la fin de celle-ci. J'ai ensuite completé avec une année d'alternance pour un diplome de concepteur développeur d'application (Niveau Bac +3)`}
           </p>
 
           <a href="#contact" className="btn btn-primary">

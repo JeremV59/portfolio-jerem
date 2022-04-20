@@ -32,6 +32,17 @@ const About = () => {
               <small>8 projets réalisés à mon actif</small>
             </article>
           </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            voluptatem beatae rerum itaque accusamus quisquam, consectetur
+            voluptate maiores sint ducimus hic ex impedit officiis porro dolorum
+            tempore. Commodi, cum placeat?
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Contactez-moi
+          </a>
         </div>
       </div>
     </section>

@@ -18,8 +18,8 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <IoBagCheck className="about_icon"></IoBagCheck>
-              <h5>Experiences</h5>
-              <small>Plus d'un an d'expérience</small>
+              <h5>Expériences</h5>
+              <small>1 an et demi de développement web </small>
             </article>
             <article className="about_card">
               <IoSchool className="about_icon"></IoSchool>
@@ -29,15 +29,12 @@ const About = () => {
             <article className="about_card">
               <IoFolderOpen className="about_icon"></IoFolderOpen>
               <h5>Projets</h5>
-              <small>8 projets réalisés à mon actif</small>
+              <small>+ de 8 projets à mon actif</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            voluptatem beatae rerum itaque accusamus quisquam, consectetur
-            voluptate maiores sint ducimus hic ex impedit officiis porro dolorum
-            tempore. Commodi, cum placeat?
+            {`Je suis issu d'une reconversion professionelle dans le domaine du dévelopement web, j'ai donc fais une formation de Technicien Développeur (Niveau Bac +2) ainsi qu'un stage de 3 mois à la fin de celle-ci. J'ai ensuite completé avec une année d'alternance pour un diplome de concepteur développeur d'application (Niveau Bac +3)`}
           </p>
 
           <a href="#contact" className="btn btn-primary">

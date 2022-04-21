@@ -1,7 +1,8 @@
 import React from "react";
 import ButtonGroup from "./ButtonGroup";
 import "./header.css";
-import ReactLogo from "../../assets/reactjs-logo.jpg";
+import Me from "../../assets/jeremy.jpg";
+import Navbar from "../navbar/Navbar";
 
 const Header = () => {
   return (
@@ -11,7 +12,9 @@ const Header = () => {
         <h1>Jérémy Vaneste</h1>
         <h5 className="text-light">Développeur Front-End</h5>
         <ButtonGroup></ButtonGroup>
-        <img className="me" src={ReactLogo} alt="Jérémy"></img>
+        <div className="me">
+          <img className="image_style" src={Me} alt="Jérémy"></img>
+        </div>
       </div>
     </header>
   );

@@ -1,15 +1,16 @@
 .container_competences {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   gap: 2rem;
+  justify-content: center;
 }
 
 .container_competences > div {
-  background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
+  background: var(--color-primary-variant);
+  padding: 2.5rem 3rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  width: 38%;
 }
 
 .container_competences > div:hover {
@@ -28,6 +29,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  place-items: center;
 }
 
 .experience_details {

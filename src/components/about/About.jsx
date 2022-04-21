@@ -2,16 +2,18 @@ import React from "react";
 import "./about.css";
 import MyPicture from "../../assets/jeremy.jpg";
 import { IoBagCheck, IoFolderOpen, IoSchool } from "react-icons/io5";
+import ReactLogo from "../../assets/reactjs-logo.jpg";
 
 const About = () => {
   return (
     <section id="about">
-      <h2>A propos de moi</h2>
+      <h5>Afin d'en savoir plus sur moi</h5>
+      <h2>Petite présentation</h2>
 
       <div className="container about_container">
         <div className="about_left_content">
           <div className="about_image">
-            <img src={MyPicture} alt="about_image"></img>
+            <img src={ReactLogo} alt="about_image"></img>
           </div>
         </div>
         <div className="about_content">

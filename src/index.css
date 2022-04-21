@@ -61,7 +61,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 section > h2,
@@ -117,14 +117,6 @@ img {
 }
 
 /* Media queries to small & medium width device */
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-  section > h2 {
-    margin-bottom: 2rem;
-  }
-}
 
 @media screen and (max-width: 1024px) {
   .container {
@@ -132,5 +124,14 @@ img {
   }
   section {
     margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
   }
 }

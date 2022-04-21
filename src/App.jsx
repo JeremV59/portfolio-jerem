@@ -12,7 +12,6 @@ const App = () => {
     <React.Fragment>
       <Navbar></Navbar>
       <Header></Header>
-
       <About></About>
       <Competences></Competences>
       <Portfolio></Portfolio>

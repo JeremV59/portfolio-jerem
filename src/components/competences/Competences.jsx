@@ -18,7 +18,7 @@ const Competences = () => {
     <section id="competences">
       <h2>Mes compétences techniques</h2>
 
-      <div className="container_competences">
+      <div className="container container_competences">
         <div className="experience_frontend">
           <h3>Front End</h3>
           <div className="experience_content">

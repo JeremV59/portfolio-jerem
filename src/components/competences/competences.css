@@ -1,17 +1,16 @@
 .container_competences {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* justify-content: center; */
 }
 
 .container_competences > div {
   background: var(--color-primary-variant);
-  padding: 2.5rem 3rem;
+  padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
-  width: 38%;
 }
 
 .container_competences > div:hover {
@@ -35,7 +34,7 @@
 
 .experience_details {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   gap: 1rem;
 }
 
@@ -44,6 +43,21 @@
 }
 
 /* Media Queries for small and medium width */
+
+@media screen and (max-width: 1024px) {
+  .container_competences {
+    grid-template-columns: 1fr;
+  }
+  .container_competences > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  /* .experience_content {
+    padding: 1rem;
+  } */
+}
+
 @media screen and (max-width: 600px) {
   .container_competences {
     gap: 1rem;
@@ -51,20 +65,5 @@
   .container_competences > div {
     width: 100%;
     padding: 2rem 1rem;
-  }
-  .experience_details {
-    gap: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container_competences {
-    grid-template-columns: 1fr;
-  }
-  .container_competences > div {
-    margin: 0rem 0.8rem;
-  }
-  .experience_content {
-    padding: 1rem;
   }
 }

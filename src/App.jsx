@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <React.Fragment>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Header></Header>
       <About></About>
       <Competences></Competences>

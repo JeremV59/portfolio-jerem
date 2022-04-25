@@ -57,7 +57,7 @@ header {
   }
 }
 
-@media screen and (max-height: 1200px) {
+@media screen and (max-height: 800px) {
   .me {
     margin-top: 1rem;
     width: 16rem;

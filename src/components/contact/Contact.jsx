@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin, BsMessenger } from "react-icons/bs";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_he8vmtv",
+      "template_9at0bfn",
+      form.current,
+      "aR-QUbCW3OiS5MmMb"
+    );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Si vous avez besoin de moi</h5>
@@ -34,7 +50,7 @@ const Contact = () => {
             <a href="mailto:jeremy.vaneste@free.fr">Envoyer un message</a>
           </article>
         </div>
-        <form action="submit">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             name="nometprenom"
             placeholder="Nom et prénom"

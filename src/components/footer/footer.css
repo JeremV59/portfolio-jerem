@@ -20,11 +20,16 @@
 
 .second_part_footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: var(--container-width-lg);
+  margin: 0% 13%;
+}
+
+.socials_icon_container {
+  display: flex;
+  gap: 0.8rem;
 }
 
 .social_icon {
   font-size: 1.2rem;
-  margin-top: 0.3rem;
 }

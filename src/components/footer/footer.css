@@ -33,3 +33,9 @@
 .social_icon {
   font-size: 1.2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .main_part_footer {
+    flex-direction: column;
+  }
+}

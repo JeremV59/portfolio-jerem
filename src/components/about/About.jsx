@@ -21,7 +21,7 @@ const About = () => {
             <article className="about_card">
               <IoBagCheck className="about_icon"></IoBagCheck>
               <h5>Expériences</h5>
-              <small>1 an et demi de développement web </small>
+              <small>2 ans de développement web </small>
             </article>
             <article className="about_card">
               <IoSchool className="about_icon"></IoSchool>
@@ -31,7 +31,7 @@ const About = () => {
             <article className="about_card">
               <IoFolderOpen className="about_icon"></IoFolderOpen>
               <h5>Projets</h5>
-              <small>+ de 8 projets à mon actif</small>
+              <small>+ de 5 projets à mon actif</small>
             </article>
           </div>
 

@@ -4,10 +4,10 @@ nav {
   display: block;
   padding: 0.4rem 1.2rem;
   z-index: 2;
-  position: sticky;
-  top: 5%;
-  left: 20%;
-  transform: translateX(-25%);
+  position: fixed;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
@@ -32,8 +32,3 @@ nav a.active {
   color: var(--color-white);
 }
 
-@media screen and (max-width: 600px) {
-  nav {
-    top: 2%;
-  }
-}

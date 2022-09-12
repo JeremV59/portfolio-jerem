@@ -1,19 +1,14 @@
 import React from "react";
 import "./portfolio.css";
 import LneImage from "../../assets/LNE.png";
-import TodoImage from "../../assets/todo.png";
+import TodoImage from "../../assets/todolist.png";
+import QuizzImage from "../../assets/quizz.png";
+import CocktailImage from "../../assets/cocktail.png";
+import BlogImage from "../../assets/blog.png";
 
 const projets = [
   {
     id: 1,
-    title: "Le Nouvel Ecuyer",
-    project_image: LneImage,
-    github_link: null,
-    demo_project_link: null,
-  },
-
-  {
-    id: 2,
     title: "Todo List App",
     project_image: TodoImage,
     github_link: null,
@@ -21,33 +16,25 @@ const projets = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "Cocktail App",
-    project_image: LneImage,
+    project_image: CocktailImage,
+    github_link: null,
+    demo_project_link: null,
+  },
+
+  {
+    id: 3,
+    title: "Blog App",
+    project_image: BlogImage,
     github_link: null,
     demo_project_link: null,
   },
 
   {
     id: 4,
-    title: "Blog App",
-    project_image: LneImage,
-    github_link: null,
-    demo_project_link: null,
-  },
-
-  {
-    id: 5,
     title: "Quizz App",
-    project_image: LneImage,
-    github_link: null,
-    demo_project_link: null,
-  },
-
-  {
-    id: 6,
-    title: "Le Nouvel Ecuyer",
-    project_image: LneImage,
+    project_image: QuizzImage,
     github_link: null,
     demo_project_link: null,
   },

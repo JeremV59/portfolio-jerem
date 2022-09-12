@@ -7,7 +7,6 @@ const projets = [
   {
     id: 1,
     title: "Le Nouvel Ecuyer",
-    description: "Application React réalisé durant mon année d'alternance",
     project_image: LneImage,
     github_link: null,
     demo_project_link: null,
@@ -15,8 +14,7 @@ const projets = [
 
   {
     id: 2,
-    title: "Todo List",
-    description: "Liste de tâches effectué durant un exercice de formation",
+    title: "Todo List App",
     project_image: TodoImage,
     github_link: null,
     demo_project_link: null,
@@ -24,8 +22,7 @@ const projets = [
 
   {
     id: 3,
-    title: "Le Nouvel Ecuyer",
-    description: "Application React réalisé durant mon année d'alternance",
+    title: "Cocktail App",
     project_image: LneImage,
     github_link: null,
     demo_project_link: null,
@@ -33,8 +30,7 @@ const projets = [
 
   {
     id: 4,
-    title: "Le Nouvel Ecuyer",
-    description: "Application React réalisé durant mon année d'alternance",
+    title: "Blog App",
     project_image: LneImage,
     github_link: null,
     demo_project_link: null,
@@ -42,8 +38,7 @@ const projets = [
 
   {
     id: 5,
-    title: "Le Nouvel Ecuyer",
-    description: "Application React réalisé durant mon année d'alternance",
+    title: "Quizz App",
     project_image: LneImage,
     github_link: null,
     demo_project_link: null,
@@ -52,7 +47,6 @@ const projets = [
   {
     id: 6,
     title: "Le Nouvel Ecuyer",
-    description: "Application React réalisé durant mon année d'alternance",
     project_image: LneImage,
     github_link: null,
     demo_project_link: null,

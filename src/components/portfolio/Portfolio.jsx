@@ -11,8 +11,8 @@ const projets = [
     id: 1,
     title: "Todo List App",
     project_image: TodoImage,
-    github_link: null,
-    demo_project_link: null,
+    github_link: "https://github.com/jeremyv59/todolist-react",
+    demo_project_link: "https://jeremyv59.github.io/todolist-react/",
   },
 
   {
@@ -35,8 +35,8 @@ const projets = [
     id: 4,
     title: "Quizz App",
     project_image: QuizzImage,
-    github_link: null,
-    demo_project_link: null,
+    github_link: "https://github.com/jeremyv59/quizz-react",
+    demo_project_link: "https://jeremyv59.github.io/quizz-react/",
   },
 ];
 

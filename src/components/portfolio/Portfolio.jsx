@@ -19,16 +19,16 @@ const projets = [
     id: 2,
     title: "Cocktail App",
     project_image: CocktailImage,
-    github_link: null,
-    demo_project_link: null,
+    github_link: "https://github.com/jeremyv59/cocktailapp-react",
+    demo_project_link: "https://jeremyv59.github.io/cocktailapp-react/",
   },
 
   {
     id: 3,
     title: "Blog App",
     project_image: BlogImage,
-    github_link: null,
-    demo_project_link: null,
+    github_link: "https://github.com/jeremyv59/blog-react",
+    demo_project_link: "https://jeremyv59.github.io/blog-react/",
   },
 
   {

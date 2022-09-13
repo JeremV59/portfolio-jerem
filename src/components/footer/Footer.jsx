@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="container_footer">
-      <div className="main_part_footer">
+      {/* <div className="main_part_footer">
         <GrReactjs className="footer_icon"></GrReactjs>
         <a href="#">Accueil</a>
         <a href="#about">A propos</a>
         <a href="#competences">Compétences</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
-      </div>
+      </div> */}
 
       <div className="second_part_footer">
         <small>&copy; Jérémy Vaneste</small>

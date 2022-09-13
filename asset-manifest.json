@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-jerem/static/css/main.f70e6db5.css",
-    "main.js": "/portfolio-jerem/static/js/main.1bea582f.js",
+    "main.css": "/portfolio-jerem/static/css/main.edeefbf9.css",
+    "main.js": "/portfolio-jerem/static/js/main.c8e91d70.js",
     "static/media/jeremy.jpg": "/portfolio-jerem/static/media/jeremy.dc57c3fc193b00910954.jpg",
     "static/media/cv-jeremy.pdf": "/portfolio-jerem/static/media/cv-jeremy.ca6e6de04da911fa6e02.pdf",
     "static/media/reactjs-logo.jpg": "/portfolio-jerem/static/media/reactjs-logo.95375305922eda7c0b75.jpg",
-    "static/media/todo.png": "/portfolio-jerem/static/media/todo.605a6a1af929e0f24e30.png",
     "static/media/LNE.png": "/portfolio-jerem/static/media/LNE.9d8945a1f851ee0927f5.png",
+    "static/media/blog.png": "/portfolio-jerem/static/media/blog.5361d7da2cad8140901c.png",
     "index.html": "/portfolio-jerem/index.html",
-    "main.f70e6db5.css.map": "/portfolio-jerem/static/css/main.f70e6db5.css.map",
-    "main.1bea582f.js.map": "/portfolio-jerem/static/js/main.1bea582f.js.map"
+    "main.edeefbf9.css.map": "/portfolio-jerem/static/css/main.edeefbf9.css.map",
+    "main.c8e91d70.js.map": "/portfolio-jerem/static/js/main.c8e91d70.js.map"
   },
   "entrypoints": [
-    "static/css/main.f70e6db5.css",
-    "static/js/main.1bea582f.js"
+    "static/css/main.edeefbf9.css",
+    "static/js/main.c8e91d70.js"
   ]
 }

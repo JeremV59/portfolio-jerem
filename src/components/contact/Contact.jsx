@@ -40,7 +40,9 @@ const Contact = () => {
             <BsLinkedin className="contact_option_icon"></BsLinkedin>
             <h4>LinkedIn</h4>
             <h5>Jérémy Vaneste</h5>
-            <a href="mailto:jeremy.vaneste@free.fr">Envoyer un message</a>
+            <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-vaneste-78a84b22b/">
+              Envoyer un message
+            </a>
           </article>
 
           <article className="contact_option">

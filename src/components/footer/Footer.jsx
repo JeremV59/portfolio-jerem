@@ -1,8 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { GrReactjs } from "react-icons/gr";
-import { BsLinkedin, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -25,12 +23,6 @@ const Footer = () => {
 
           <a href="https://github.com/jeremyv59">
             <BsGithub className="social_icon"></BsGithub>
-          </a>
-          <a>
-            <BsInstagram className="social_icon"></BsInstagram>
-          </a>
-          <a>
-            <BsTwitter className="social_icon"></BsTwitter>
           </a>
         </div>
       </div>

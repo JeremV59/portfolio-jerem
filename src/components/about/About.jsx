@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import MyPicture from "../../assets/jeremy.jpg";
 import { IoBagCheck, IoFolderOpen, IoSchool } from "react-icons/io5";
 import ReactLogo from "../../assets/reactjs-logo.jpg";
 

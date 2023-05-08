@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import LneImage from "../../assets/LNE.png";
 import TodoImage from "../../assets/todolist.png";
 import QuizzImage from "../../assets/quizz.png";
 import CocktailImage from "../../assets/cocktail.png";
@@ -55,13 +54,14 @@ const Portfolio = () => {
               </div>
               <h3> {projet.title} </h3>
               <div className="portfolio_item_btnGroup">
-                <a href={projet.github_link} target="_blank" className="btn">
+                <a href={projet.github_link} target="_blank" className="btn" rel="noreferrer">
                   GitHub
                 </a>
                 <a
                   href={projet.demo_project_link}
                   className="btn btn-primary"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo Projet
                 </a>

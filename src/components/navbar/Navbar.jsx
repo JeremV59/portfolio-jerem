@@ -5,50 +5,36 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BsAward } from "react-icons/bs";
 import { BiBookOpen, BiMessageDetail } from "react-icons/bi";
 
+const NavBarLink = ({ currentHash, href, children, onClick }) => {
+  return (
+    <a onClick={() => onClick(href)} aria-current ={currentHash === href ? "page" : "false"} href={href}>
+      {children}
+    </a>
+  );
+};
 const Navbar = () => {
-  const [iconIsActive, setIconsIsActive] = useState("#");
-
-  const changeActiveIcon = (iconRef) => {
-    setIconsIsActive(iconRef);
+  const [hash, setHash] = useState(window.location.hash || "#");
+  const onClickLink = (href) => {
+    setHash(href);
   };
 
   return (
     <nav>
-      <a
-        onClick={() => changeActiveIcon("#")}
-        className={iconIsActive === "#" ? "active" : ""}
-        href="#"
-      >
+      <NavBarLink currentHash={hash} href="#" onClick={onClickLink}>
         <GoHome></GoHome>
-      </a>
-      <a
-        className={iconIsActive === "#about" ? "active" : ""}
-        onClick={() => changeActiveIcon("#about")}
-        href="#about"
-      >
+      </NavBarLink>
+      <NavBarLink currentHash={hash} href="#about" onClick={onClickLink}>
         <AiOutlineUser></AiOutlineUser>
-      </a>
-      <a
-        className={iconIsActive === "#competences" ? "active" : ""}
-        onClick={() => changeActiveIcon("#competences")}
-        href="#competences"
-      >
+      </NavBarLink>
+      <NavBarLink currentHash={hash} href="#competences" onClick={onClickLink}>
         <BsAward></BsAward>
-      </a>
-      <a
-        className={iconIsActive === "#portfolio" ? "active" : ""}
-        onClick={() => changeActiveIcon("#portfolio")}
-        href="#portfolio"
-      >
+      </NavBarLink>
+      <NavBarLink currentHash={hash} href="#portfolio" onClick={onClickLink}>
         <BiBookOpen></BiBookOpen>
-      </a>
-      <a
-        className={iconIsActive === "#contact" ? "active" : ""}
-        onClick={() => changeActiveIcon("#contact")}
-        href="#contact"
-      >
+      </NavBarLink>
+      <NavBarLink currentHash={hash} href="#contact" onClick={onClickLink}>
         <BiMessageDetail></BiMessageDetail>
-      </a>
+      </NavBarLink>
     </nav>
   );
 };

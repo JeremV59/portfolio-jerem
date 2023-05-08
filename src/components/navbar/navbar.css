@@ -23,11 +23,12 @@ a {
   font-size: 1.1rem;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
   background: rgba(155, 183, 212, 0.4);
 }
 
-nav a.active {
+nav a[aria-current="page"] {
   background: var(--color-primary);
   color: var(--color-white);
 }

@@ -2,7 +2,6 @@ import React from "react";
 import ButtonGroup from "./ButtonGroup";
 import "./header.css";
 import Me from "../../assets/jeremy.jpg";
-import Navbar from "../navbar/Navbar";
 
 const Header = () => {
   return (
